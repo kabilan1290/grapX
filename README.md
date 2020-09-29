@@ -10,7 +10,7 @@ This is a simple script i recently created for my recon automation.if you can co
 Install:
 
 ```
-▶ git clone xxx.com
+▶ git clone https://github.com/kabilan1290/grapX.git
 ▶ chmod +x grapX
 ```
 Usage example:
