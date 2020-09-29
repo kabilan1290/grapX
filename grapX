@@ -1,0 +1,23 @@
+#!/usr/bin/python
+import pyfiglet 
+import sys 
+import os
+
+print(pyfiglet.figlet_format("grapX")) 
+try:
+	args =sys.argv[1]
+	fileopen = open('ext', "r")  
+	lines = fileopen.readlines()
+	for line in lines:
+		payload=line.strip()
+		print("===="+payload+" ====")
+		print("\n")
+		command = "cat "+args+" |"
+		command2 = ' \ '
+		space = command2.replace(" ", "")
+		final = command+" grep -i \'"+space+payload+space+">$\'"
+		os.system(final)
+		print("\n")
+except IndexError:
+	print("./grapX file : Please Specify file!!")
+
