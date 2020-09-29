@@ -3,13 +3,13 @@ import pyfiglet
 import sys 
 import os
 
+ext = [".asp",".aspx",".cer",".cfm",".cfml",".rb",".php",".php3",".php4",".php5",".jsp",".json",".apk",".ods",".xls",".xlsm",".xlsx",".bak",".cab",".cpl",".dmp",".drv",".tmp",".sys",".doc",".docx",".pdf",".txt",".wpd",".bat",".bin",".cgi",".pl",".py",".exe",".gadget",".jar",".msi",".wsf",".csv",".dat",".db",".dbf",".log",".mdb",".sav",".sql",".tar",".xml",".7z",".arj",".deb",".pkg",".rar",".rpm",".tar.gz",".z",".zip",".bin",".dmg",".iso",".toast",".vcd",".email",".eml",".emlx",".msg",".oft",".ost",".pst",".vcf",".shtm",".shtml",".phtm",".phtml",".jhtml",".conf"]
+length = len(ext)-1
 print(pyfiglet.figlet_format("grapX")) 
 try:
 	args =sys.argv[1]
-	fileopen = open('ext', "r")  
-	lines = fileopen.readlines()
-	for line in lines:
-		payload=line.strip()
+	for i in range(0,length):
+		payload = ext[i]
 		print("===="+payload+" ====")
 		print("\n")
 		command = "cat "+args+" |"
@@ -19,5 +19,4 @@ try:
 		os.system(final)
 		print("\n")
 except IndexError:
-	print("./grapX file : Please Specify file!!")
-
+	print("./grapX file: Please Specify file!!")
