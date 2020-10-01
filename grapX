@@ -33,4 +33,4 @@ try:
 		f.write("\n")
 	f.close()
 except IndexError:
-	print("./grapX file: Please Specify file!!")
+	print("./grapX url output_filename: Please Specify files!!")
