@@ -12,6 +12,7 @@ Install:
 ```
 ▶ git clone https://github.com/kabilan1290/grapX.git
 ▶ chmod +x grapX
+▶ cp grapX /usr/local/bin/grapX
 ```
 Usage example:
 
