@@ -18,6 +18,6 @@ Usage example:
 
 ```
 ▶ cat domains.txt | waybackurls > urls
-▶ ./grapX urls
+▶ ./grapX urls filename
 
 ```
