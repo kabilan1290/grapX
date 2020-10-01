@@ -3,6 +3,7 @@ import pyfiglet
 import sys 
 import os
 
+
 print(pyfiglet.figlet_format("grapX")) 
 try:
         args =sys.argv[1]
