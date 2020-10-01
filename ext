@@ -75,3 +75,6 @@
 .phtml
 .jhtml
 .conf
+.yml
+.config
+.yaml
