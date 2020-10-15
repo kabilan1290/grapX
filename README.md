@@ -9,14 +9,14 @@
 This is a simple script i recently created for my recon automation.if you can contribute on some extensions or on code,Great!!
 
 
-### 🔧 How to Install:
+### 🔧 How to Install :
 
 ```
 ▶ git clone https://github.com/kabilan1290/grapX.git
 ▶ chmod +x grapX
 ▶ cp grapX /usr/local/bin/grapX
 ```
-### 👨🏻‍🏫 How to Use:
+### 👨🏻‍🏫 How to Use :
 
 ```
 ▶ cat domains.txt | waybackurls > urls
@@ -24,6 +24,6 @@ This is a simple script i recently created for my recon automation.if you can co
 
 ```
 
-### 💁🏻 Contribution:
+### 💁🏻 Contribution :
 
 This is an open source project. Any contribution would be greatly appreciated!
